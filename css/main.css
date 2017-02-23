@@ -2,8 +2,9 @@
 
 header {
     background: gray;
-    min-height: 200px;
+    min-height: 300px;
     display: flex;
+    margin-top: 50px;
     
 }
 
@@ -11,6 +12,18 @@ header h1 {
     margin: auto 45px;
     font-weight: 400;
     font-size: 60px;
+    color: #ffffff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: auto 20px;
 }
 
 main > section > * {
