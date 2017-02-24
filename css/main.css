@@ -1,4 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
+    
+body {
+    
+}
 
+h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
 
 header {
     background: gray;
@@ -9,10 +25,7 @@ header {
 }
 
 header h1 {
-    margin: auto 45px;
-    font-weight: 400;
-    font-size: 60px;
-    color: #ffffff;
+    margin: auto 100px;
 }
 
 header .nom {
@@ -32,6 +45,9 @@ nav ul li{
 }
 
 main > section > * {
-    margin: auto 45px;
+    margin: auto 100px;
 }
 
+main > section > .blurb p{
+    max-width: 800px;
+}
