@@ -48,6 +48,32 @@ main > section > * {
     margin: auto 100px;
 }
 
+main > section > section {
+    display: flex;
+    
+    
+}
+
+main > section > .spotlight:nth-child(even)  {
+    width: 60%;
+    background-color: red;
+}
+main > section > .spotlight:nth-child(odd)  {
+    width: 40%;
+    background-color: yellow;
+}
+
 main > section > .blurb p{
     max-width: 800px;
 }
+
+.sptlight:after {
+    content:"";
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    z-index: 1000;
+
+}
+
